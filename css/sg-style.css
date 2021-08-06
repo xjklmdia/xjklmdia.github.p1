@@ -6,6 +6,17 @@
  License: MIT
 
 ---------------------------------------------------------------------------- */
+/*Principals
+--------------------------------------------------------------------------------*/
+.sg-prin {
+  /*padding-top: 20%;  Used to set height of color swatch */
+}
+
+.sg-prin img{
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* -------------------------------------------------------------------------
  Layout
@@ -395,6 +406,7 @@ body {
 .sg-color-swatch {
   padding-top: 20%; /* Used to set height of color swatch */
 }
+
 
 .sg-color-name {
   font-size: 1.2em; /* Test this with 1.1 em */
