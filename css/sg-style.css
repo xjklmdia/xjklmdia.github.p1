@@ -167,8 +167,8 @@ body {
 .sg-logo,
 .sg-about p,
 .sg-color-value  {
-  font-family: 'roboto', sans-serif;
-  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+  /*font-family: 'roboto', sans-serif;*/
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 400;
 }
 
@@ -181,8 +181,8 @@ body {
 .sg-h3,
 .sg-color-name,
 .sg-font-list dt  {
-  font-family: 'roboto', sans-serif;
-  /*font-family: 'Roboto', "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+  /*font-family: 'roboto', sans-serif;*/
+  font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
    font-weight: 500;
 }
 
