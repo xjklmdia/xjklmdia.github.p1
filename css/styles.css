@@ -30,8 +30,8 @@ h4 {font-size: 1.2em;}
 h5 {font-size: 1em;}
 h6 {font-size: .8em;}
 /*you need to fix this later*/
-p{margin-top: 0;
-	width:70%;}
+p:not(.container-triple){margin-top: 0;
+	width:50%;}
 
 img{height: auto; max-width: 100%;}
 
@@ -106,7 +106,7 @@ img, svg, video, audio {
 	max-width: 768px;
 	padding: 0 2em;
 }
-
+.container-triple{}
 .group {}
 
 .sg-image{
