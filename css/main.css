@@ -50,18 +50,31 @@ code {
 .emphasis{
   transition-duration: 0.5s;
 }
+/*
+.tester img{
+  display:block;
+  filter: blur(4px);
+  z-index: -1;
+}*/
 
 .emphasis:hover{
   color:black;
 }
-/* this doesnt work when you put class declaration infront of it */
-img{
+/* this doesnt work when you put class declaration infront of it
+something about wrong quotations? */
+.logo img{
   position:absolute;
   height:auto;
   opacity:50%;
   padding-left: 15rem;
   max-width:50%;
   z-index: -1;
+}
+
+.storeimg img{
+  max-width: 50%;
+  height:auto;
+  filter: blur(4px);
 }
 
 .element {
@@ -222,19 +235,32 @@ cursor:pointer;
     float: left;
   }
 
-  .stickymenu.responsive{
-    position:relative;
-  }
-
-  .stickymenu.responsive a{
-    float:none;
-    display:block;
-    text-align:left;
-  }
-
   .content{
     margin:0;
 
+  }
+
+  #textintro{
+    font-size: 3rem;
+  }
+
+  .am{
+    display:none;
+  }
+
+}
+
+
+@media screen and(max-width: 450px){
+    .stickymenuresponsive{
+    position:relative;
+  }
+
+  .stickymenuresponsive a{
+    float:none;
+    display:block;
+    text-align:left;
+    background-color: #221345;
   }
 
 }
