@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <title>Style Guide Template</title>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/main.css" rel="stylesheet">
 
   </head>
@@ -13,24 +13,23 @@
   <body>
 
     <header>
-      <h1>Antisocial Plant Club</h1>
-
-
-
-      <p class ="fontchoicessec" id="textintro">A design firm that sells plants, and design productws for the betterment of humankind. We want the world to be a better (and more antisocial place). </p>
-
-<div class ="topnav">
-      <nav>
-        <a href="#interactive_elements">Interactive Elements</a>
-        <a href="#text_elements">Text Elements</a>
-        <a href="#combined_elements">Combined Elements</a>
-        <a href="#citations">Citations</a>
-      </nav>
-    </div>
 	</header>
+  <div class ="stickymenu" id="resp_stickymenu">
+        <nav>
+
+          <a class = "sidemenu" href="#interactive_elements">Interactive Elements</a>
+          <a class = "sidemenu" href="#text_elements">Text Elements</a>
+          <a class = "sidemenu" href="#combined_elements">Combined Elements</a>
+          <a class = "sidemenu" href="#images">Images</a>
+          <a class = "sidemenu" href="#citations">Citations</a>
+          <a href ="javascript:void(0);" class = "active icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </nav>
+      </div>
 
 
+<div class="content">
 
+  <p id="textintro">This is the guiding ethos behind <em class = "emphasis">Bitter Orange</em>. A multimedia company and apothecary shop based in beautiful downtown <em class="emphasis">Richmond, British Columbia.</em></p>
     <!-- INTERACTIVE ELEMENTS SECTION // -->
     <section id="interactive_elements">
       <h2>Interactive Elements</h2>
@@ -149,7 +148,10 @@
 
 
       </section>
-
+      <!-- IMAGES SECTION -->
+      <section id="Images">
+        <h2> Images </h2>
+      </section>
 
     </section>
     <!-- // COMBINED ELEMENTS SECTION -->
@@ -163,7 +165,7 @@
       <section class="element">
         <h3>Colors</h3>
         <div><div class="white" id = "color"></div><p>White</p></div>
-        <div><div class="green" id = "color"></div><p>Green</p></div>
+        <div><div class="orange" id = "color"></div><p>Green</p></div>
         <div><div class="black" id = "color"></div><p>Black</p></div>
       </section>
       <section class="element">
@@ -199,6 +201,7 @@
 
 
     </section>
+
 <!-- // IDEATION SECTION  -->
 
     <section id="citations">
@@ -213,8 +216,19 @@
       </ul>
 
     </section>
+</div>
 
+<script>
+function myFunction(){
+  var x = document.getElementById("resp_stickymenu");
+  if(x.className ==="stickymenu"){
+    x.className += "responsive";
+  } else {
+      x.className = "stickymenu";
+    }
+  }
 
+</script>
 
   </body>
 </html>
