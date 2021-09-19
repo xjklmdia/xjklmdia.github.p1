@@ -4,7 +4,7 @@
 */
 @font-face{
   font-family:font1;
-  src: url(Stolzl_Display.otf);
+  src: url(RecifeDisplay-Regular.ttf);
 }
 
 @font-face{
@@ -16,7 +16,7 @@
 body {
   font-family: sans-serif;
   margin:0;
-  background-color: #ffa500;
+  background-color: #FFFFFF;
 }
 
 
@@ -48,12 +48,10 @@ code {
 }
 
 .emphasis{
-  text-decoration: underline dotted white;
   transition-duration: 0.5s;
 }
 
 .emphasis:hover{
-  text-decoration: underline dotted black;
   color:black;
 }
 
@@ -66,8 +64,9 @@ code {
 
 #textintro{
   font-family: font1;
+  max-width:95rem;
   font-size: 7rem;
-  color: white;
+  color: #ffa500;
 }
 
 
