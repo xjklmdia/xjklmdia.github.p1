@@ -3,8 +3,8 @@
   Default styling for the style guide
 */
 @font-face{
-  font-family:stolzl;
-  src: url(Stolzl_Display.otf);
+  font-family:font1;
+  src: url(RecifeDisplay-Regular.ttf);
 }
 
 @font-face{
@@ -13,30 +13,13 @@
 }
 
 
-
-p, a {
-  max-width: 50rem;
-}
- 
 body {
   font-family: sans-serif;
-  padding: 2rem;
+  margin:0;
+  background-color: #FFFFFF;
 }
 
-.element {
-  padding-bottom: .5rem;
-  border-top-width: 0.05rem;
-  border-top-style: solid;
-  border-top-color: grey;
-}
 
-.fontchoices{
-font-family: helvetica;
-}
-
-.fontchoicessec{
-  font-family: stolzl;
-}
 
 h2 {
   margin-top: 6rem;
@@ -64,13 +47,55 @@ code {
   display: block;
 }
 
-#textintro{
-  font-size:4rem;
-  max-width:70rem;
-  color:#00ff00;
-  letter-spacing: .2rem;
-  /*font-weight: bold;*/
+.emphasis{
+  transition-duration: 0.5s;
 }
+
+.tester img{
+  display:block;
+  filter: blur(4px);
+  z-index: -1;
+}
+
+img{
+  border: 1px solid black;
+}
+.emphasis:hover{
+  color:black;
+}
+/* this doesnt work when you put class declaration infront of it
+something about wrong quotations? */
+.logo img{
+  position:absolute;
+  height:auto;
+  opacity:50%;
+  padding-left: 15rem;
+  max-width:50%;
+  z-index: -1;
+}
+
+.storeimg img{
+  max-width: 50%;
+  height:auto;
+  filter: blur(4px);
+}
+
+.element {
+  padding-bottom: .5rem;
+  border-top-width: 0.05rem;
+  border-top-style: solid;
+  border-top-color: grey;
+}
+
+#textintro{
+  z-index: 100;
+  font-family: font1;
+  max-width:95rem;
+  font-size: 7rem;
+  color: #ffa500;
+}
+
+
 /*
   INTERACTIVE ELEMENTS -------------------
 */
@@ -89,7 +114,6 @@ code {
 .button-nav:hover, .button-nav:focus {
   background-color: rgb(200,200,200);
 }
-
 
 
 #buttonnav {
@@ -130,10 +154,16 @@ cursor:pointer;
   color:white;
 }
 
-
+/* intro main page */
+.fontchoicessec{
+  font-family:font1;
+  font-size:6rem;
+  color:white;
+  /* -webkit-text-stroke: 5px black; */
+}
 
 /*
-  COMBINED ELEMENTS -------------------
+  COMBINED ELEMENTS menu -------------------
 */
 .topnav{
   overflow:hidden;
@@ -141,7 +171,6 @@ cursor:pointer;
 }
 
 .topnav a{
-  display:block;
   float:left;
   text-align: center;
   color: white;
@@ -155,6 +184,89 @@ cursor:pointer;
   text-decoration: underline;
 }
 
+.stickymenu {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  width:15rem;
+  position:fixed;
+  height:100%;
+  overflow: auto;
+  background-color: #c6c6c6;
+}
+
+.stickymenu a{
+  display:block;
+  color:#223145;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.stickymenu a:hover{
+  background-color: #223145;
+  color: white;
+}
+
+.stickymenu .icon{
+  display:none;
+}
+
+.content{
+  margin-left:15rem;
+  padding:1px 16px;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width:450px){
+  .stickymenu a.icon{
+    float:left;
+    display:block;
+  }
+/* There is a problem here */
+/* need javascript to make menu appear */
+  .stickymenu .sidemenu{
+    display:none;
+  }
+
+  .stickymenu {
+    width:100%;
+    height:auto;
+    position: relative;
+  }
+
+  .stickymenu a{
+    float: left;
+  }
+
+  .content{
+    margin:0;
+
+  }
+
+  #textintro{
+    font-size: 3rem;
+  }
+
+  .am{
+    display:none;
+  }
+
+}
+
+
+@media screen and(max-width: 450px){
+    .stickymenuresponsive{
+    position:relative;
+  }
+
+  .stickymenuresponsive a{
+    float:none;
+    display:block;
+    text-align:left;
+    background-color: #221345;
+  }
+
+}
 
 /*
   STYLEGUIDE INSPIRATIONS -------------------
@@ -167,8 +279,8 @@ cursor:pointer;
 .white{
   background-color: #FFFFFF;
 }
-.green{
-  background-color: #00FF00;
+.orange{
+  background-color: #FFA500;
 }
 .black{
   background-color: #222423;
