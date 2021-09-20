@@ -232,6 +232,10 @@ cursor:pointer;
     display:none;
   }
 
+  hr{
+    display:none;
+  }
+
   .stickymenu {
     width:100%;
     height:auto;
