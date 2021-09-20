@@ -47,11 +47,30 @@ code {
   display: block;
 }
 
+
+
+hr{
+  margin: .5rem 1rem;
+  border-style: solid;
+  display:block;
+  border-width:1px;
+  border-bottom:none;
+  border-color: #6c6c6c;
+}
+
+#textintro{
+  z-index: 100;
+  font-family: font1;
+  max-width:95rem;
+  font-size: 7rem;
+  color: #ffa500;
+}
+
 .emphasis{
   transition-duration: 0.5s;
 }
 
-.tester{
+.backgroundimg{
   position:absolute;
   display:block;
   opacity:50%;
@@ -78,25 +97,6 @@ something about wrong quotations? */
   border-top-style: solid;
   border-top-color: grey;
 }
-
-hr{
-  margin: .5rem 1rem;
-  border-style: solid;
-  display:block;
-  border-width:1px;
-  border-bottom:none;
-  border-color: #6c6c6c;
-}
-
-#textintro{
-  z-index: 100;
-  font-family: font1;
-  max-width:95rem;
-  font-size: 7rem;
-  color: #ffa500;
-}
-
-
 /*
   INTERACTIVE ELEMENTS -------------------
 */
