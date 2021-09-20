@@ -51,9 +51,12 @@ code {
   transition-duration: 0.5s;
 }
 
-.tester img{
+.tester{
+  position:absolute;
   display:block;
-  filter: blur(4px);
+  opacity:50%;
+  padding-left: 15rem;
+  max-width:50%;
   z-index: -1;
 }
 
@@ -65,14 +68,6 @@ img{
 }
 /* this doesnt work when you put class declaration infront of it
 something about wrong quotations? */
-.logo img{
-  position:absolute;
-  height:auto;
-  opacity:50%;
-  padding-left: 15rem;
-  max-width:50%;
-  z-index: -1;
-}
 
 .storeimg img{
   max-width: 50%;
