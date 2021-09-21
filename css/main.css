@@ -23,7 +23,9 @@ body {
   background-color: #ffffff;
 }
 
-
+img{
+  max-width:50rem;
+}
 
 h2 {
   margin-top: 6rem;
