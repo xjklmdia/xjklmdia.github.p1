@@ -80,6 +80,7 @@ hr{
   position:absolute;
   display:block;
   opacity:99%;
+  filter:invert(100%);
   padding-left: 10rem;
   max-width:50%;
   z-index: -1;
