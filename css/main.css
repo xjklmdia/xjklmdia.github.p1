@@ -79,7 +79,7 @@ hr{
 .backgroundimg{
   position:absolute;
   display:block;
-  opacity:50%;
+  opacity:99%;
   padding-left: 10rem;
   max-width:50%;
   z-index: -1;
