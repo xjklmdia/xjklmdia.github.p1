@@ -104,9 +104,6 @@ something about wrong quotations? */
 
 .element {
   padding-bottom: .5rem;
-  border-top-width: 0.05rem;
-  border-top-style: solid;
-  border-top-color: grey;
 }
 /*
   INTERACTIVE ELEMENTS -------------------
