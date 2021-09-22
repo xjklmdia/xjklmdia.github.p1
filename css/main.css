@@ -29,6 +29,8 @@ img{
 
 h2 {
   margin-top: 6rem;
+  color:#FFA500;
+  font-family:font1;
 }
 
 h3 {
@@ -80,7 +82,7 @@ hr{
   position:absolute;
   display:block;
   opacity:99%;
-  filter:invert(100%);
+  filter:invert(20%);
   padding-left: 10rem;
   max-width:50%;
   z-index: -1;
