@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-      <title>Style Guide Template</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/main.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Style Guide Template</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/main.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <header>
-	</header>
-  <div class ="stickymenu" id="resp_stickymenu">
-        <nav>
-          <a class = "sidemenu" href="#intro">Philosphy</a>
-          <hr>
-          <a class = "sidemenu" href="#interactive_elements">Interactive Elements</a>
-          <a class = "sidemenu" href="#text_elements">Text Elements</a>
-          <a class = "sidemenu" href="#combined_elements">Combined Elements</a>
-          <a class = "sidemenu" href = "#Layout">Layout</a>
-          <a class = "sidemenu" href="#images">Images</a>
-          <a class = "sidemenu" href="#citations">Citations</a>
-          <a href ="javascript:void(0);" class = "active icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-        </nav>
-      </div>
+  <header>
+  </header>
+  <div class="stickymenu" id="resp_stickymenu">
+    <nav>
+      <a class="sidemenu" href="#intro">Philosphy</a>
+      <hr>
+      <a class="sidemenu" href="#interactive_elements">Interactive Elements</a>
+      <a class="sidemenu" href="#text_elements">Text Elements</a>
+      <a class="sidemenu" href="#combined_elements">Combined Elements</a>
+      <a class="sidemenu" href="#Layout">Layout</a>
+      <a class="sidemenu" href="#images">Images</a>
+      <a class="sidemenu" href="#citations">Citations</a>
+      <a href="javascript:void(0);" class="active icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </nav>
+  </div>
 
 
-<div class="content">
-  <section id="intro">
-  <img src="img/82842_orange_1_engrave.png" class = "backgroundimg"  alt="afda">
-  <p id="textintro">This is the guiding ethos behind <em class = "emphasis">Bitter Orange</em>. A multimedia company and apothecary shop based in beautiful downtown <em class=
-  	"emphasis">Richmond, British Columbia.</em></p>
-</section>
+  <div class="content">
+    <section id="intro">
+      <img src="img/82842_orange_1_engrave.png" class="backgroundimg" alt="afda">
+      <p id="textintro">This is the guiding ethos behind <em class="emphasis">Bitter Orange</em>. A multimedia company and apothecary shop based in beautiful downtown <em class="emphasis">Richmond, British Columbia.</em></p>
+    </section>
     <!-- INTERACTIVE ELEMENTS SECTION // -->
     <section id="interactive_elements">
       <h2>Interactive Elements</h2>
       <section id="element">
-      <button id="buttonnav">I am a Button </button>
-      <br>
-      <br>
-    </section>
+        <button id="buttonnav">I am a Button </button>
+        <br>
+        <br>
+      </section>
       <section class="element">
         <h3>In-text link</h3>
         <a id="intext" href="#">link here</a>
@@ -71,7 +70,7 @@
         <h3>Text Input Field with Label</h3>
         <form>
           <label for="fname">INTERESTING </label>
-          <input type="text" id ="fname" value="WOWIE">
+          <input type="text" id="fname" value="WOWIE">
         </form>
       </section>
 
@@ -79,7 +78,7 @@
 
       <section class="element">
         <h3>Image as a Link</h3>
-        <a href = "https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png">
+        <a href="https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png">
           <img src="img/paws.jpg" alt="cats">
         </a>
       </section>
@@ -129,16 +128,16 @@
 
       <section class="element">
         <h3>Main Navigation</h3>
-        <div class = "topnav" id ="uppermenu">
-        <nav>
-          <a href="#">Test</a>
-          <a href="#">Buy</a>
-          <a href="#">Trial</a>
-          <a href="#">Catalogue</a>
-          <a href="#">Past Projects</a>
-          <a href = "javascript:void(0);" class = "icon" onclick = "myFunction()"><i class="fa fa-bars"></i></a>
-        </nav>
-      </div>
+        <div class="topnav" id="uppermenu">
+          <nav>
+            <a href="#">Test</a>
+            <a href="#">Buy</a>
+            <a href="#">Trial</a>
+            <a href="#">Catalogue</a>
+            <a href="#">Past Projects</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+          </nav>
+        </div>
       </section>
 
       <section class="element">
@@ -165,19 +164,41 @@
       <p> For this project I want to look at modular websites and websites that have unconventional ways of navigating.</p>
       <br>
       <p> This website will sell design products and vegetables and have an unconventional navigation that still fulfills all heuristic prescendence </p>
+
       <section class="element">
+        <!-- display rows and columns that are responsive -->
         <h3>Colors</h3>
-        <div class="colorschema"><div class="white" id = "color"></div><p class="colorschemma">White</p></div>
-        <div class="colorschema">
-          <div class="orange" id = "color"></div>
-<!-- I dont think this works -->
-        <!-- <div class = "colorhide">
-        #FFA500
-        </div> -->
-        <p>Orange</p>
-      </div>
-        <div class="colorschema"><div class="black" id = "color"></div><p>Black</p></div>
+        <div class="row">
+
+          <div class="colorschema">
+            <div class="card">
+              <div class="white" id="color">
+              </div>
+              <p class="colorschemma">White</p>
+              <p>Hex Code: #FFFFFF</p>
+            </div>
+          </div>
+
+          <div class="colorschema">
+            <div class="card">
+              <div class="orange" id="color"></div>
+              <p>Orange</p>
+              <p>Hex Code: #FFA500</p>
+            </div>
+          </div>
+
+          <div class="colorschema">
+            <div class="card">
+              <div class="black" id="color">
+              </div>
+              <p>Black</p>
+              <p>Hex Code: #222423</p>
+            </div>
+          </div>
+
+        </div>
       </section>
+
       <section class="element">
         <h3> Inspirations </h3>
         <p>Ya I got nutthin</p>
@@ -186,8 +207,8 @@
         <h3> Font Choices </h3>
         <hr>
         <section class="element fontchoices">
-        <h4>Primary Font</h4>
-        <p>"Helvetica", sans-serif;</p>
+          <h4>Primary Font</h4>
+          <p>"Helvetica", sans-serif;</p>
         </section>
         <section class="element fontchoices">
           <h4>Secondary Font</h4>
@@ -213,13 +234,14 @@
 
     </section>
 
-<!-- // IDEATION SECTION  -->
+    <!-- // IDEATION SECTION  -->
 
     <section id="citations">
       <h2>Citations</h2>
 
       <ul>
-        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a>
+        </li>
         <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
         <li>https://stackoverflow.com/questions/42051528/how-do-i-make-an-image-clickable</li>
         <li>https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png</li>
@@ -227,26 +249,26 @@
       </ul>
 
     </section>
-</div>
+  </div>
 
-<script>
-/*responsive hamburger menu*/
-function myFunction(){
-  var x = document.getElementById("resp_stickymenu");
-  if(x.className ==="stickymenu"){
-    x.className += "responsive";
-  } else {
-      x.className = "stickymenu";
+  <script>
+    /*responsive hamburger menu*/
+    function myFunction() {
+      var x = document.getElementById("resp_stickymenu");
+      if (x.className === "stickymenu") {
+        x.className += "responsive";
+      } else {
+        x.className = "stickymenu";
       }
-  }
-/*
-This function is supposed to highlight the menu section you are on
-*/
-function highlightMenu(){
+    }
+    /*
+    This function is supposed to highlight the menu section you are on
+    */
+    function highlightMenu() {
 
-}
+    }
+  </script>
 
-</script>
+</body>
 
-  </body>
 </html>
