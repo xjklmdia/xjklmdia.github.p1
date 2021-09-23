@@ -3,7 +3,7 @@
   Default styling for the style guide
 */
 @font-face {
-  font-family: font1;
+  font-family: recife;
   src: url(RecifeDisplay-Regular.ttf);
 }
 
@@ -67,7 +67,7 @@ hr {
 
 #textintro {
   z-index: 100;
-  font-family: font1;
+  font-family: recife;
   max-width: 95rem;
   font-size: 7rem;
   color: #ffa500;
@@ -148,8 +148,9 @@ something about wrong quotations? */
   padding: 0.2rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  font-family: recife;
   color: black;
-  background-color: #00FF00;
+  background-color: #FFA500;
   cursor: pointer;
 }
 
@@ -159,7 +160,7 @@ something about wrong quotations? */
 
 /* intro main page */
 .fontchoicessec {
-  font-family: font1;
+  font-family: recife;
   font-size: 6rem;
   color: white;
   /* -webkit-text-stroke: 5px black; */
@@ -341,7 +342,7 @@ something about wrong quotations? */
 */
 
 .secondaryfont{
-  font-family: font1;
+  font-family: recife;
 }
 
 .primaryfont{
