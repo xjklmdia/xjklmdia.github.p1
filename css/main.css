@@ -151,12 +151,12 @@ something about wrong quotations? */
   font-family: recife;
   color: #222423;
   /* background-color: #FFA500; */
-  text-decoration: underline;
+  text-decoration: underline dotted 1px;
   cursor: pointer;
 }
 
 #intext:hover {
-  color: white;
+  opacity:70%;
 }
 
 /* intro main page */
