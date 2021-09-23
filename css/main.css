@@ -128,14 +128,17 @@ something about wrong quotations? */
   color: #222423;
   background-color: #FFFFFF;
   border-radius: 25px;
-  border: 1px solid #222423;
+  border: 1px solid #FFA500;
+  font-weight:bold;
+  letter-spacing: .125rem;
   text-decoration: none;
   transition-property: background-color;
   transition-duration: 0.4s;
+  font-family: recife;
 }
 
 #buttonnav:hover, #buttonnav:focus {
-  background-color: #222423;
+  background-color: #FFA500;
   color: white;
   /* transform:rotate(-5deg); */
 }
