@@ -149,8 +149,9 @@ something about wrong quotations? */
   padding-left: 1rem;
   padding-right: 1rem;
   font-family: recife;
-  color: black;
-  background-color: #FFA500;
+  color: #222423;
+  /* background-color: #FFA500; */
+  text-decoration: underline;
   cursor: pointer;
 }
 
