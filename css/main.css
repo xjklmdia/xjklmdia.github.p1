@@ -121,6 +121,11 @@ something about wrong quotations? */
   display:grid;
 }
 
+@media(min-width:38.5rem){
+  .three-column{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
 /*
   INTERACTIVE ELEMENTS -------------------
 */
