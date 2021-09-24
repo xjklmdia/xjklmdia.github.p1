@@ -12,6 +12,11 @@
   src: url(HelveticaNeue-Medium.otf);
 }
 
+@font-face{
+  font-family:helveticatext;
+  src: url(HelvecticaNeue-Regular.otf);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -49,7 +54,11 @@ h5{
 }
 
 p {
+  font-family: helveticatext;
+  font-size: 1.50rem;
   margin-top: 0;
+  max-width:55rem;
+  line-height: 1.85rem;
 }
 
 nav a:hover, nav a:focus {
