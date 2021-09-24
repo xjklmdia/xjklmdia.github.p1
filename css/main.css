@@ -125,9 +125,14 @@ something about wrong quotations? */
   display:grid;
 }
 
-@media(min-width:38.5rem){
+@media(min-width:71.875rem){
   .three-column{
     grid-template-columns: repeat(3,1fr);
+  }
+}
+@media(max-width:71rem){
+  p.colorschema{
+    font-size: 1rem;
   }
 }
 /*
