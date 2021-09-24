@@ -33,6 +33,7 @@ img {
 
 h2 {
   margin-top: 3rem;
+  font-size: 3.5rem;
   color: #222423;
   font-family: recife;
 }
@@ -164,7 +165,7 @@ h2 .text-headings{
 }
 
 .bodytext{
-  max-width: 50rem;
+  max-width: 70rem;
   font-family: helveticaText;
   font-size:1.75rem;
 }
