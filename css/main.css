@@ -12,6 +12,11 @@
   src: url(HelveticaNeue-Medium.otf);
 }
 
+@font-face{
+  font-family: helveticaText;
+  src: url(HelveticaNeue-Regular.otf);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -157,6 +162,13 @@ h2 .text-headings{
   margin-top: :1rem;
 
 }
+
+.bodytext{
+  max-width: 50rem;
+  font-family: helveticaText;
+  font-size:1.75rem;
+}
+
 
 #intext {
   text-decoration: none;
