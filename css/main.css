@@ -13,8 +13,13 @@
 }
 
 @font-face{
+<<<<<<< HEAD
   font-family: helveticaText;
   src: url(HelveticaNeue-Regular.otf);
+=======
+  font-family:helveticatext;
+  src: url(HelvecticaNeue-Regular.otf);
+>>>>>>> 513fc833b5f9c7f81503101ac5faf90cbfefe89b
 }
 
 html {
@@ -33,7 +38,10 @@ img {
 
 h2 {
   margin-top: 3rem;
+<<<<<<< HEAD
   font-size: 3.5rem;
+=======
+>>>>>>> 513fc833b5f9c7f81503101ac5faf90cbfefe89b
   color: #222423;
   font-family: recife;
 }
@@ -55,7 +63,11 @@ h5{
 }
 
 p {
+  font-family: helveticatext;
+  font-size: 1.50rem;
   margin-top: 0;
+  max-width:55rem;
+  line-height: 1.85rem;
 }
 
 nav a:hover, nav a:focus {
@@ -164,6 +176,7 @@ h2 .text-headings{
 
 }
 
+<<<<<<< HEAD
 .bodytext{
   max-width: 70rem;
   font-family: helveticaText;
@@ -171,6 +184,8 @@ h2 .text-headings{
 }
 
 
+=======
+>>>>>>> 513fc833b5f9c7f81503101ac5faf90cbfefe89b
 #intext {
   text-decoration: none;
   padding: 0.2rem;
