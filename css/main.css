@@ -27,7 +27,7 @@ img {
 }
 
 h2 {
-  margin-top: 6rem;
+  margin-top: 3rem;
   color: #222423;
   font-family: recife;
 }
@@ -152,6 +152,12 @@ something about wrong quotations? */
 /*
   TEXT ELEMENTS -------------------
 */
+
+h2 .text-headings{
+  margin-top: :1rem;
+
+}
+
 #intext {
   text-decoration: none;
   padding: 0.2rem;
