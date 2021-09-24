@@ -117,6 +117,10 @@ something about wrong quotations? */
   padding-bottom: .5rem;
 }
 
+.grid{
+  display:grid;
+}
+
 /*
   INTERACTIVE ELEMENTS -------------------
 */
