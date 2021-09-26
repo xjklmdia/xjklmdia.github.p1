@@ -84,6 +84,13 @@ hr {
   border-color: #6c6c6c;
 }
 
+figure{
+  margin-left: 0rem;
+  margin-top: .5rem;
+  max-width: 20rem;
+
+}
+
 #textintro {
   z-index: 100;
   font-family: recife;
@@ -91,6 +98,8 @@ hr {
   font-size: 7rem;
   color: #ffa500;
 }
+
+
 
 .emphasis {
   transition-duration: 0.5s;
@@ -139,6 +148,8 @@ something about wrong quotations? */
     font-size: 1rem;
   }
 }
+
+
 /*
   INTERACTIVE ELEMENTS -------------------
 */
@@ -282,6 +293,48 @@ margin:0;
   overflow-x: hidden;
 }
 
+.imglink{
+  max-width: 40rem;
+  display:flex;
+  transition-duration: 0.2s;
+}
+
+.imglink:hover{
+  filter: brightness(60%);
+
+}
+
+.figurecaption{
+margin-top:1rem;
+border-width: 2px;
+  margin-left: 0rem;
+  max-width: 25rem;
+}
+
+@media screen and (max-width: 55.9375rem) {
+  .imglink{
+    display:block;
+    max-width:30rem;
+  }
+}
+
+@media screen and (max-width:38.1875rem){
+  .imglink{
+    display:block;
+    max-width:20rem;
+  }
+
+  .figurecaption{
+  margin-top:3rem;
+  border-width: 2px;
+    margin-left: 0rem;
+    max-width: 15rem;
+  }
+
+}
+
+
+/* media */
 @media screen and (max-width:38.1875rem) {
   .stickymenu a.icon {
     float: left;
@@ -291,7 +344,7 @@ margin:0;
   /* There is a problem here */
   /* need javascript to make menu appear */
   .stickymenu .sidemenu {
-    /* display: none; */
+    display: none;
   }
 
   hr {
