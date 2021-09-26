@@ -18,7 +18,7 @@
 
 @font-face{
   font-family:helveticatext;
-  src: url(HelvecticaNeue-Regular.otf);
+  src: url(HelveticaNeue-Regular.otf);
 }
 
 html {
@@ -319,7 +319,7 @@ margin:0;
   .am {
     display: none;
   }
-  
+
   .stickymenu .responsive {
     position: relative;
   }
