@@ -318,11 +318,11 @@ margin:0;
 }
 
 @media screen and (max-width: 600px) {
-  .stickymenuresponsive {
+  .stickymenu .responsive {
     position: relative;
   }
 
-  .stickymenuresponsive a {
+  .stickymenu .responsive a {
     float: none;
     display: block;
     text-align: left;
