@@ -131,6 +131,10 @@ something about wrong quotations? */
   }
 }
 @media(max-width:71rem){
+  #color{
+    max-width: 4rem;
+  }
+
   p.colorschema{
     font-size: 1rem;
   }
