@@ -132,7 +132,7 @@ something about wrong quotations? */
 }
 @media(max-width:71rem){
   #color{
-    max-width: 4rem;
+    max-width: 15rem;
   }
 
   p.colorschema{
@@ -282,7 +282,7 @@ margin:0;
   overflow-x: hidden;
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:38.1875rem) {
   .stickymenu a.icon {
     float: left;
     display: block;
@@ -319,9 +319,7 @@ margin:0;
   .am {
     display: none;
   }
-}
-
-@media screen and (max-width: 600px) {
+  
   .stickymenu .responsive {
     position: relative;
   }
@@ -333,8 +331,8 @@ margin:0;
     background-color: #221345;
   }
 
-
 }
+
 
 /*
   STYLEGUIDE INSPIRATIONS -------------------
