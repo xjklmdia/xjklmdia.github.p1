@@ -291,7 +291,7 @@ margin:0;
   /* There is a problem here */
   /* need javascript to make menu appear */
   .stickymenu .sidemenu {
-    display: none;
+    /* display: none; */
   }
 
   hr {
