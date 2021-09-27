@@ -49,6 +49,7 @@ h3 {
 }
 
 h4 {
+  margin-top: 0rem;
   font-family: recife;
   font-size: 2rem;
   margin-bottom: 0.25rem;
@@ -175,10 +176,10 @@ something about wrong quotations? */
   border-radius: 25px;
   border: 1px solid #FFA500;
   font-weight:bold;
-  letter-spacing: .125rem;
+  /* letter-spacing: .125rem; */
   text-decoration: none;
   transition-property: background-color;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
   font-family: recife;
 }
 
@@ -303,9 +304,12 @@ margin:0;
 .storecard{
   /* text-align: center; */
 align-content: center;
+padding:1rem;
 }
 
-
+.storecard:hover{
+  filter:brightness(120%);
+}
 
 .storeimg{
   height: auto;
