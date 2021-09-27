@@ -17,6 +17,11 @@
 }
 
 @font-face{
+  font-family: subtitles
+  src:url(HelveticaNeue-Light.otf);
+}
+
+@font-face{
   font-family:helveticatext;
   src: url(HelveticaNeue-Regular.otf);
 }
@@ -37,7 +42,8 @@ img {
 
 h2 {
   margin-top: 3rem;
-  font-size: 3.5rem;
+  margin-bottom: 0rem
+  font-size: 2.5rem;
   color: #222423;
   font-family: recife;
 }
@@ -56,8 +62,12 @@ h4 {
 }
 
 h5{
+  margin-top: .125rem;
   margin-bottom:0.25rem;
-  font-family: helvetica;
+  color: #a9a9a9;
+  font-size: 1rem;
+  font-style: italic;
+  font-family: subtitles;
 }
 
 p {
@@ -93,6 +103,16 @@ figure{
 
 }
 
+/* BITS AND ENDS-------------------------------- */
+.docuHR{
+  margin-left: .375rem;
+  border-style: solid;
+  display: block;
+  border-width: 1px;
+  border-bottom: none;
+  border-color: #6c6c6c;
+}
+/* ----------------------------------------------- */
 #textintro {
   z-index: 100;
   font-family: recife;
@@ -305,6 +325,8 @@ margin:0;
   /* text-align: center; */
 align-content: center;
 padding:1rem;
+/* border:1px solid #a9a9a9;
+border-radius: 20px; */
 }
 
 .storecard:hover{
