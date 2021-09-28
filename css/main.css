@@ -114,6 +114,14 @@ figure{
   border-bottom: none;
   border-color: #6c6c6c;
 }
+
+.withUnderline{
+  border-style: 1px solid black;
+  border-bottom: 1px solid black;
+  padding:.75rem;
+  padding-left: 0rem;
+  border-color:#6c6c6c;
+}
 /* ----------------------------------------------- */
 #textintro {
   z-index: 100;
