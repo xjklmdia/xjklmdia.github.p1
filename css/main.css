@@ -72,9 +72,9 @@ h5{
 
 p {
   font-family: helveticatext;
-  font-size: 1.50rem;
+  font-size: 1.15rem;
   margin-top: 0;
-  max-width:55rem;
+  max-width:45rem;
 }
 
 nav a:hover, nav a:focus {
@@ -86,6 +86,8 @@ code {
   padding: 0.5rem;
   display: block;
 }
+
+
 
 hr {
   margin: .5rem 1rem;
@@ -418,15 +420,15 @@ border-width: 2px;
 }
 
 @media screen and (max-width:38.1875rem){
-  .stickymenu .responsive {
+  .stickymenu.responsive {
     position: relative;
   }
 
-  .stickymenu .responsive a {
+  .stickymenu.responsive a {
     float: none;
     display: block;
     text-align: left;
-    background-color: #221345;
+    background-color: #222423;
   }
 }
 /*
