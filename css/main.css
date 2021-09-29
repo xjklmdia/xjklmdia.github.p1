@@ -87,7 +87,20 @@ code {
   display: block;
 }
 
+label{
+  font-family: recife;
+  margin-left: 0rem;
+  font-size: 1.15rem;
+}
 
+input{
+  border-radius: .125rem;
+
+}
+
+input:hover , input:focus{
+
+}
 
 hr {
   margin: .5rem 1rem;
@@ -115,6 +128,11 @@ pre{
 }
 
 /* BITS AND ENDS-------------------------------- */
+.spacer{
+  padding: .25rem;
+}
+
+
 .stylingClasses{
 
 }
