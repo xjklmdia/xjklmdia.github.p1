@@ -107,8 +107,8 @@ figure{
 
 pre{
   max-width: 25rem;
-  color:#222423;
-  background-color: #c4c4c4;
+  /* color:#222423; */
+  background-color: #222423;
   padding:1rem 1rem 1rem 0;
 
 }
@@ -180,7 +180,7 @@ something about wrong quotations? */
   }
 
   .uneven-two-column{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     grid-template-columns: 1fr 2fr;
     grid-gap:.25rem;
     max-width: 55rem;
