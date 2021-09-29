@@ -109,6 +109,7 @@ pre{
   max-width: 25rem;
   /* color:#222423; */
   background-color: #222423;
+  margin-bottom:0rem;
   padding:1rem 1rem 1rem 0;
 
 }
@@ -182,7 +183,7 @@ something about wrong quotations? */
   .uneven-two-column{
     /* border: 1px solid black; */
     grid-template-columns: 1fr 2fr;
-    grid-gap:.25rem;
+    grid-gap:.2rem;
     max-width: 55rem;
   }
 }
