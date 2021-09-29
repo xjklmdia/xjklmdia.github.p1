@@ -9,62 +9,63 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/prettify.css" rel="stylesheet">
-  <body onload="PR.prettyPrint()">
-</head>
 
-<body>
+<body onload="PR.prettyPrint()">
+  </head>
 
-  <header>
-  </header>
-  <!-- need id here for javascript getElementbyID -->
-  <div class="stickymenu" id="resp_stickymenu">
-    <nav>
-      <a class="sidemenu" href="#intro">Philosphy</a>
-      <hr>
-      <a class="sidemenu" href="#interactive_elements">Interactive Elements</a>
-      <a class="sidemenu" href="#text_elements">Text Elements</a>
-      <a class="sidemenu" href="#combined_elements">Combined Elements</a>
-      <a class="sidemenu" href="#Layout">Layout</a>
-      <a class="sidemenu" href="#images">Images</a>
-      <a class="sidemenu" href="#citations">Citations</a>
-      <a href="javascript:void(0);" class="active icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </nav>
-  </div>
+  <body>
 
-
-  <div class="content">
-    <section id="intro">
-      <img src="img/82842_orange_1_engrave.png" class="backgroundimg" alt="afda">
-      <p class="introstart" id="textintro">This is the guiding ethos behind <em class="emphasis">Bitter Orange</em>. A multimedia company and apothecary shop based in beautiful downtown <em class="emphasis">Richmond, British Columbia.</em></p>
-    </section>
-    <br>
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
-      <h2 class ="withUnderline">Interactive Elements</h2>
-      <!-- <hr class="docuHR"> -->
-      <section id="element">
-        <h3>Button Styling</h3>
-        <button id="buttonnav">Button Text </button>
+    <header>
+    </header>
+    <!-- need id here for javascript getElementbyID -->
+    <div class="stickymenu" id="resp_stickymenu">
+      <nav>
+        <a class="sidemenu" href="#intro">Philosphy</a>
+        <hr>
+        <a class="sidemenu" href="#interactive_elements">Interactive Elements</a>
+        <a class="sidemenu" href="#text_elements">Text Elements</a>
+        <a class="sidemenu" href="#combined_elements">Combined Elements</a>
+        <a class="sidemenu" href="#Layout">Layout</a>
+        <a class="sidemenu" href="#images">Images</a>
+        <a class="sidemenu" href="#citations">Citations</a>
+        <a href="javascript:void(0);" class="active icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+    </div>
 
 
-
-        <!-- how do I replace this with semantic html -->
-        <br>
-        <br>
+    <div class="content">
+      <section id="intro">
+        <img src="img/82842_orange_1_engrave.png" class="backgroundimg" alt="afda">
+        <p class="introstart" id="textintro">This is the guiding ethos behind <em class="emphasis">Bitter Orange</em>. A multimedia company and apothecary shop based in beautiful downtown <em class="emphasis">Richmond, British Columbia.</em></p>
       </section>
-      <section class="element">
-        <h3>In-text link</h3>
-        <a id="intext" href="#">link here</a>
-      </section>
+      <br>
+      <!-- INTERACTIVE ELEMENTS SECTION // -->
+      <section id="interactive_elements">
+        <h2 class="withUnderline">Interactive Elements</h2>
+        <!-- <hr class="docuHR"> -->
+        <section id="element">
+          <h3>Button Styling</h3>
+          <button id="buttonnav">Button Text </button>
 
-    <h3 class="stylingClasses">Sample code:</h3>
-<div class="grid uneven-two-column">
-<pre class="prettyprint lang-html">
+
+
+          <!-- how do I replace this with semantic html -->
+          <br>
+          <br>
+        </section>
+        <section class="element">
+          <h3>In-text link</h3>
+          <a id="intext" href="#">link here</a>
+        </section>
+
+        <h3 class="stylingClasses">Sample code:</h3>
+        <div class="grid uneven-two-column">
+          <pre class="prettyprint lang-html">
 &lt;a href="#" class="button">Default Button &lt;/a>
 </pre>
-        <pre class="prettyprint lang-css">
+          <pre class="prettyprint lang-css">
     .docuHR{
           margin-left: .375rem;
           border-style: solid;
@@ -74,26 +75,22 @@
           border-color: #6c6c6c;
         }
       </pre>
-</div
-
-
-
-      <section class="element">
+        </div <section class="element">
         <h3>Text Input Field with Label</h3>
         <form>
           <label for="fname">Label Here </label>
           <div class="spacer">
-<!-- Andrews hatred of improperly used <br> elements makes me use this div as a spacer -->
+            <!-- Andrews hatred of improperly used <br> elements makes me use this div as a spacer -->
           </div>
           <input type="text" id="fname" value="Text Here">
         </form>
       </section>
       <h3 class="stylingClasses">Sample code:</h3>
       <div class="grid uneven-two-column">
-      <pre class="prettyprint lang-html">
+        <pre class="prettyprint lang-html">
       &lt;a href="#" class="button">Default Button &lt;/a>
       </pre>
-          <pre class="prettyprint lang-css">
+        <pre class="prettyprint lang-css">
       .docuHR{
             margin-left: .375rem;
             border-style: solid;
@@ -103,21 +100,18 @@
             border-color: #6c6c6c;
           }
         </pre>
-      </div
-
-
-      <section class="element">
-        <h3>Image as a Link</h3>
-        <a href="https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png">
-          <img class="imglink" src="img/paws.jpg" alt="cats">
-        </a>
-        <hr class="figurecaption">
-        <figure>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</figure>
+      </div <section class="element">
+      <h3>Image as a Link</h3>
+      <a href="https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png">
+        <img class="imglink" src="img/paws.jpg" alt="cats">
+      </a>
+      <hr class="figurecaption">
+      <figure>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</figure>
       </section>
 
       <h3 class="stylingClasses">Sample code:</h3>
       <div class="grid uneven-two-column">
-      <pre class="prettyprint lang-html">
+        <pre class="prettyprint lang-html">
         &lt;a href="https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png"&gt;
           &lt;img class="imglink" src="img/paws.jpg" alt="cats"&gt;
         &lt;/a&gt;
@@ -128,7 +122,7 @@
         &lt;/figure&gt;
 
       </pre>
-          <pre class="prettyprint lang-css">
+        <pre class="prettyprint lang-css">
       .docuHR{
             margin-left: .375rem;
             border-style: solid;
@@ -138,82 +132,87 @@
             border-color: #6c6c6c;
           }
         </pre>
-      </div
-
-    </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
+      </div </section>
+      <!-- // INTERACTIVE ELEMENTS SECTION -->
 
 
 
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-      <h2 class = "withUnderline">Text Elements</h2>
-      <section class="element">
-        <h2 class="text-headings">Headings</h2>
-        <h3>Headings</h3>
-        <h4>Headings</h4>
-        <h5>Headings</h5>
-      </section>
+      <!-- TEXT ELEMENTS SECTION // -->
+      <section id="text_elements">
+        <h2 class="withUnderline">Text Elements</h2>
+        <section class="element">
+          <h2 class="text-headings">Headings</h2>
+          <h3>Headings</h3>
+          <h4>Headings</h4>
+          <h5>Headings</h5>
+        </section>
 
-      <section class="element">
-        <h3>Numbered Lists</h3>
-        <ol>
-          <li>a</li>
-          <li>s</li>
-          <li>c</li>
-          <li>k</li>
-        </ol>
-      </section>
+        <section class="element">
+          <h3>Numbered Lists</h3>
+          <ol>
+            <li>a</li>
+            <li>s</li>
+            <li>c</li>
+            <li>k</li>
+          </ol>
+        </section>
 
-      <section class="element">
-        <h3>Paragraph</h3>
-        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
-          Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32
-          and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum
-          dolor sit amet..", comes from a line in section 1.10.32.</p>
-      </section>
-      <h3 class="stylingClasses">Sample code:</h3>
-  <div class="grid uneven-two-column">
-  <pre class="prettyprint lang-html">
-  &lt;a href="#" class="button">Default Button &lt;/a>
+        <section class="element">
+          <h3>Paragraph</h3>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+            Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32
+            and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum
+            dolor sit amet..", comes from a line in section 1.10.32.</p>
+        </section>
+        <h3 class="stylingClasses">Sample code:</h3>
+        <div class="grid uneven-two-column">
+          <pre class="prettyprint lang-html">
+            &lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical
+            Latin literature from 45 BC, making it over 2000 years old.
+            Richard McClintock, a Latin professor at Hampden-Sydney College in
+            Virginia, looked up one of the more obscure Latin words, consectetur,
+        from a Lorem Ipsum passage, and going through the cites of the word in classical
+        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32
+      and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
+       by Cicero, written in 45 BC. This book is a treatise on the theory of ethics,
+        very popular during the Renaissance. The first line of Lorem Ipsum,
+        "Lorem ipsumdolor sit amet..", comes from a line in section 1.10.32.
+        &lt;/p&gt;
   </pre>
           <pre class="prettyprint lang-css">
-      .docuHR{
-            margin-left: .375rem;
-            border-style: solid;
-            display: block;
-            border-width: 1px;
-            border-bottom: none;
-            border-color: #6c6c6c;
-          }
+            p {
+              font-family: helveticatext;
+              font-size: 1.15rem;
+              margin-top: 0;
+              max-width:45rem;
+            }
         </pre>
-  </div
-
-    </section>
-    <!-- // TEXT ELEMENTS SECTION -->
+        </div </section>
+        <!-- // TEXT ELEMENTS SECTION -->
 
 
 
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-      <h2 class = "withUnderline">Combined Elements</h2>
+        <!-- COMBINED ELEMENTS SECTION // -->
+        <section id="combined_elements">
+          <h2 class="withUnderline">Combined Elements</h2>
 
-      <section class="element">
-        <h3>Main Navigation</h3>
-        <div class="topnav" id="uppermenu">
-          <nav>
-            <a href="#">Test</a>
-            <a href="#">Buy</a>
-            <a href="#">Trial</a>
-            <a href="#">Catalogue</a>
-            <a href="#">Past Projects</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction2()"><i class="fa fa-bars"></i></a>
-          </nav>
-        </div>
-      </section>
-      <h3 class="stylingClasses">Sample code:</h3>
-  <div class="grid uneven-two-column">
-  <pre class="prettyprint lang-html">
+          <section class="element">
+            <h3>Main Navigation</h3>
+            <div class="topnav" id="uppermenu">
+              <nav>
+                <a href="#">Test</a>
+                <a href="#">Buy</a>
+                <a href="#">Trial</a>
+                <a href="#">Catalogue</a>
+                <a href="#">Past Projects</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction2()"><i class="fa fa-bars"></i></a>
+              </nav>
+            </div>
+          </section>
+          <h3 class="stylingClasses">Sample code:</h3>
+          <div class="grid uneven-two-column">
+            <pre class="prettyprint lang-html">
 
     &lt;div class="topnav" id="uppermenu"&gt;
       &lt;nav&gt;
@@ -233,33 +232,45 @@
 
 
   </pre>
-          <pre class="prettyprint lang-css">
-      .docuHR{
-            margin-left: .375rem;
-            border-style: solid;
-            display: block;
-            border-width: 1px;
-            border-bottom: none;
-            border-color: #6c6c6c;
-          }
+            <pre class="prettyprint lang-css">
+              nav a:hover, nav a:focus {
+                text-decoration: none;
+              }
+
+              .topnav {
+                overflow: hidden;
+                background-color: #222423;
+              }
+
+              .topnav a {
+                float: left;
+                text-align: center;
+                color: white;
+                text-transform: uppercase;
+                text-decoration: none;
+                padding: .6rem .8rem;
+                font-size: 20px;
+              }
+
+              .topnav a:hover {
+                text-decoration: underline;
+              }
         </pre>
-  </div
+          </div <section class="element">
+          <h3 class="withUnderline">Product/Service Listing</h3>
 
-      <section class="element">
-        <h3 class = "withUnderline">Product/Service Listing</h3>
+          <div class="grid three-column">
+            <div class="storecard">
 
-        <div class="grid three-column">
-          <div class="storecard">
+              <img class="storeimg" src="img/paws.jpg">
+              <h4>Cordyceps</h4>
+              <h5>Chinese Medicine</h5>
+              <p class="storetxt">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.</p>
+              <button id="buttonnav">Buy Now </button>
+            </div>
 
-            <img class="storeimg" src="img/paws.jpg">
-            <h4>Cordyceps</h4>
-            <h5>Chinese Medicine</h5>
-            <p class="storetxt">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-              Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.</p>
-            <button id="buttonnav">Buy Now </button>
-          </div>
-
-          <!-- <div class="storecard">
+            <!-- <div class="storecard">
             <img class="storeimg" src="img/paws.jpg">
             <h4>Licorice Root</h4>
             <h5>Chinese Medicine</h5>
@@ -279,11 +290,11 @@
             <button id="buttonnav">Buy Now </button>
           </div> -->
 
-        </div>
-      </section>
-      <h3 class="stylingClasses">Sample code:</h3>
-  <div class="grid uneven-two-column">
-  <pre class="prettyprint lang-html">
+          </div>
+        </section>
+        <h3 class="stylingClasses">Sample code:</h3>
+        <div class="grid uneven-two-column">
+          <pre class="prettyprint lang-html">
 
     &lt;div class="grid three-column"&gt;
       &lt;div class="storecard"&gt;
@@ -318,58 +329,57 @@
             max-width: 20rem;
             }
         </pre>
-  </div
-      <!-- IMAGES SECTION -->
-      <section id="Images">
-        <h2 class = "withUnderline"> Images & Color Palette </h2>
-        <!-- I need to add some copy here -->
-      </section>
-
-    </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
-    <!-- IDEATION SECTION  -->
-    <section id="Ideation">
-
-      <section class="element">
-        <!-- display rows and columns that are responsive -->
-        <h3>Colors</h3>
-        <div class="grid three-column">
-          <!-- tHIS IS NOT RESPONSIVE YET I need to figure out how to prevent the boxes from stacking on one another first -->
-
-          <!-- Card 1 -->
-          <div class="colorschema">
-            <div class="card">
-              <div class="white" id="color">
-              </div>
-              <p class="colorschemma">White</p>
-              <p>Hex Code: #FFFFFF</p>
-            </div>
-          </div>
-          <!-- Card 2 -->
-          <div class="colorschema">
-            <div class="card">
-              <div class="orange" id="color"></div>
-              <p>Orange</p>
-              <p>Hex Code: #FFA500</p>
-            </div>
-          </div>
-          <!-- Card 3 -->
-          <div class="colorschema">
-            <div class="card">
-              <div class="black" id="color">
-              </div>
-              <p>Black</p>
-              <p>Hex Code: #222423</p>
-            </div>
-          </div>
-
-        </div>
-
+        </div <!-- IMAGES SECTION -->
+        <section id="Images">
+          <h2 class="withUnderline"> Images & Color Palette </h2>
+          <!-- I need to add some copy here -->
+        </section>
 
       </section>
-      <h3 class="stylingClasses">Sample code:</h3>
-      <div class="grid uneven-two-column">
-      <pre class="prettyprint lang-html">
+      <!-- // COMBINED ELEMENTS SECTION -->
+      <!-- IDEATION SECTION  -->
+      <section id="Ideation">
+
+        <section class="element">
+          <!-- display rows and columns that are responsive -->
+          <h3>Colors</h3>
+          <div class="grid three-column">
+            <!-- tHIS IS NOT RESPONSIVE YET I need to figure out how to prevent the boxes from stacking on one another first -->
+
+            <!-- Card 1 -->
+            <div class="colorschema">
+              <div class="card">
+                <div class="white" id="color">
+                </div>
+                <p class="colorschemma">White</p>
+                <p>Hex Code: #FFFFFF</p>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="colorschema">
+              <div class="card">
+                <div class="orange" id="color"></div>
+                <p>Orange</p>
+                <p>Hex Code: #FFA500</p>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="colorschema">
+              <div class="card">
+                <div class="black" id="color">
+                </div>
+                <p>Black</p>
+                <p>Hex Code: #222423</p>
+              </div>
+            </div>
+
+          </div>
+
+
+        </section>
+        <h3 class="stylingClasses">Sample code:</h3>
+        <div class="grid uneven-two-column">
+          <pre class="prettyprint lang-html">
       &lt;a href="#" class="button">Default Button &lt;/a&gt;
       </pre>
           <pre class="prettyprint lang-css">
@@ -382,14 +392,13 @@
             border-color: #6c6c6c;
           }
         </pre>
-      </div
-      <section class="element">
+        </div <section class="element">
         <h3> Inspirations </h3>
         <p>Ya I got nutthin</p>
       </section>
       <section class="element">
         <h3> Font Choices </h3>
-        <hr class ="docuHR">
+        <hr class="docuHR">
         <section class="element fontchoices">
           <h4>Primary Font</h4>
           <p>"Helvetica", sans-serif;</p>
@@ -416,53 +425,53 @@
       </section>
 
 
-    </section>
+      </section>
 
-    <!-- // IDEATION SECTION  -->
+      <!-- // IDEATION SECTION  -->
 
-    <section id="citations">
-      <h2 class = "withUnderline">Citations</h2>
+      <section id="citations">
+        <h2 class="withUnderline">Citations</h2>
 
-      <ul>
-        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a>
-        </li>
-        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
-        <li>https://stackoverflow.com/questions/42051528/how-do-i-make-an-image-clickable</li>
-        <li>https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png</li>
-        <li>https://www.dailypaws.com/cats-kittens/cat-photos/cute-kitten-pictures</li>
-      </ul>
+        <ul>
+          <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a>
+          </li>
+          <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+          <li>https://stackoverflow.com/questions/42051528/how-do-i-make-an-image-clickable</li>
+          <li>https://icatcare.org/app/uploads/2018/07/Helping-your-new-cat-or-kitten-settle-in-1.png</li>
+          <li>https://www.dailypaws.com/cats-kittens/cat-photos/cute-kitten-pictures</li>
+        </ul>
 
-    </section>
-  </div>
-  </div>
-  <script>
-    /*responsive hamburger menu*/
-    function myFunction() {
-      var x = document.getElementById("resp_stickymenu");
-      if (x.className === "stickymenu") {
-        x.className += " responsive";
-      } else {
-        x.className = "stickymenu";
+      </section>
+    </div>
+    </div>
+    <script>
+      /*responsive hamburger menu*/
+      function myFunction() {
+        var x = document.getElementById("resp_stickymenu");
+        if (x.className === "stickymenu") {
+          x.className += " responsive";
+        } else {
+          x.className = "stickymenu";
+        }
       }
-    }
-/*repsonsive linear menu for site*/
-    function myFunction2() {
-      var x = document.getElementById("uppermenu");
-      if (x.className === "topnav") {
-        x.className += " is-open";
-      } else {
-        x.className = "topnav";
+      /*repsonsive linear menu for site*/
+      function myFunction2() {
+        var x = document.getElementById("uppermenu");
+        if (x.className === "topnav") {
+          x.className += " is-open";
+        } else {
+          x.className = "topnav";
+        }
       }
-    }
 
-    /*
-    This function is supposed to highlight the menu section you are on
-    */
-    function highlightMenu() {
+      /*
+      This function is supposed to highlight the menu section you are on
+      */
+      function highlightMenu() {
 
-    }
-  </script>
-<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-</body>
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+  </body>
 
 </html>
