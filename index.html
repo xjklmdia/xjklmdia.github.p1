@@ -46,6 +46,9 @@
       <section id="element">
         <h3>Button Styling</h3>
         <button id="buttonnav">Button Text </button>
+
+
+
         <!-- how do I replace this with semantic html -->
         <br>
         <br>
@@ -55,9 +58,22 @@
         <a id="intext" href="#">link here</a>
       </section>
 
-    <h2>Sample code:</h2>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
+    <h3 class="stylingClasses">Sample code:</h3>
+<div class="grid uneven-two-column">
+<pre class="prettyprint lang-html">
+< a href="#" class="button">Default Button < / a >
+</pre>
+        <pre class="prettyprint lang-css">
+    .docuHR{
+          margin-left: .375rem;
+          border-style: solid;
+          display: block;
+          border-width: 1px;
+          border-bottom: none;
+          border-color: #6c6c6c;
+        }
+      </pre>
+</div
 
 
 
@@ -132,7 +148,7 @@
             <a href="#">Trial</a>
             <a href="#">Catalogue</a>
             <a href="#">Past Projects</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction2()"><i class="fa fa-bars"></i></a>
           </nav>
         </div>
       </section>
@@ -283,6 +299,16 @@
         x.className = "stickymenu";
       }
     }
+/*repsonsive linear menu for site*/
+    function myFunction2() {
+      var x = document.getElementById("uppermenu");
+      if (x.className === "topnav") {
+        x.className += " is-open";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
     /*
     This function is supposed to highlight the menu section you are on
     */
@@ -290,7 +316,7 @@
 
     }
   </script>
-
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 </body>
 
 </html>

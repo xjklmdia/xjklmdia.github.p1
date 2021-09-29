@@ -105,7 +105,19 @@ figure{
 
 }
 
+pre{
+  max-width: 25rem;
+  color:#222423;
+  background-color: #c4c4c4;
+  padding:1rem 1rem 1rem 0;
+
+}
+
 /* BITS AND ENDS-------------------------------- */
+.stylingClasses{
+
+}
+
 .docuHR{
   margin-left: .375rem;
   border-style: solid;
@@ -165,6 +177,13 @@ something about wrong quotations? */
 @media(min-width:71.875rem){
   .three-column{
     grid-template-columns: repeat(3,1fr);
+  }
+
+  .uneven-two-column{
+    border: 1px solid black;
+    grid-template-columns: 1fr 2fr;
+    grid-gap:.25rem;
+    max-width: 55rem;
   }
 }
 @media(max-width:71rem){
