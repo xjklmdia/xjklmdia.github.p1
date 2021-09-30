@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Style Guide Template</title>
+  <title>Bitter Orange</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/prettify.css" rel="stylesheet">
@@ -55,7 +55,7 @@
 <h3 class="stylingClasses">Sample code:</h3>
 <div class="grid uneven-two-column">
   <pre class="prettyprint lang-html">
-&lt;button&gt; id="buttonnav">Button Text &lt;/button&gt;
+&lt;button&gt; id="buttonnav"&gt;Button Text &lt;/button&gt;
 </pre>
   <pre class="prettyprint lang-css">
     #buttonnav {
@@ -153,13 +153,17 @@
 
       </pre>
         <pre class="prettyprint lang-css">
-      .docuHR{
-            margin-left: .375rem;
-            border-style: solid;
-            display: block;
-            border-width: 1px;
-            border-bottom: none;
-            border-color: #6c6c6c;
+          figure{
+            margin-left: 0rem;
+            margin-top: .5rem;
+            max-width: 20rem;
+          }
+
+          .figurecaption{
+          margin-top:1rem;
+          border-width: 2px;
+            margin-left: 0rem;
+            max-width: 25rem;
           }
         </pre>
       </div </section>
@@ -336,7 +340,7 @@
         &lt;p class="storetxt"&gt; Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
           Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.&lt;/p&gt;
         &lt;button id="buttonnav"&gt;Buy Now &lt;/button&gt;
-      &lt;/div>
+      &lt;/div&gt;
   </pre>
           <pre class="prettyprint lang-css">
             .storecard{
@@ -442,7 +446,6 @@
               padding: .7rem 0 .5rem;
               float:left;
               width: 25%;
-              /* border: 1px solid green; */
             }
 
             .colorschema p{
