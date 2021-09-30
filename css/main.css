@@ -124,7 +124,7 @@ pre{
   background-color: #222423;
   margin-bottom:0rem;
   padding:1rem 1rem 1rem 0;
-  overflow-x: auto; 
+  overflow-x: auto;
 
 }
 
@@ -306,18 +306,21 @@ margin:0;
 }
 
 .topnav a {
+  font-family: helvetica;
   float: left;
   text-align: center;
   color: white;
   text-transform: uppercase;
   text-decoration: none;
-  padding: .6rem .8rem;
+  padding: .6rem 4.8rem;
   font-size: 20px;
 }
 
 .topnav a:hover {
-  text-decoration: underline;
+  border-bottom: 3px solid white;
 }
+
+/* break points go here */
 
 .stickymenu {
   list-style-type: none;
