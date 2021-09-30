@@ -133,6 +133,10 @@ pre{
   padding: .25rem;
 }
 
+.largespacer{
+  padding: 2.5rem;
+}
+
 .docuHR{
   margin-left: .375rem;
   border-style: solid;
@@ -422,15 +426,30 @@ border-width: 2px;
 }
 
 
+@media screen and (min-width:100.93rem){
+  .topmenu{
+    padding:0.2rem;
+  }
+}
+
 /* media */
 @media screen and (max-width:38.1875rem) {
+
+.topnav a.icon{
+  float: left;
+  display:block;
+}
+
+.topmenu{
+  display:none;
+  padding: 0.6rem 0.8rem;
+}
+
   .stickymenu a.icon {
     float: left;
     display: block;
   }
 
-  /* There is a problem here */
-  /* need javascript to make menu appear */
   .stickymenu .sidemenu {
     display: none;
   }
@@ -457,9 +476,6 @@ border-width: 2px;
     font-size: 3rem;
   }
 
-  .am {
-    display: none;
-  }
 
 
 }
@@ -470,6 +486,17 @@ border-width: 2px;
   }
 
   .stickymenu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    background-color: #222423;
+  }
+
+  .topnav.is-open {
+    position: relative;
+  }
+
+  .topnav.is-open a {
     float: none;
     display: block;
     text-align: left;
