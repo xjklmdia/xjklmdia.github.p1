@@ -193,9 +193,20 @@ something about wrong quotations? */
   display:grid;
 }
 
+.imgspec{
+
+}
+
+.imgspec:hover{
+  filter:brightness(120%);
+}
+
 @media(min-width:71.875rem){
+
+
   .three-column{
     grid-template-columns: repeat(3,1fr);
+    grid-gap:.3rem;
   }
 
   .uneven-two-column{
@@ -401,6 +412,10 @@ margin-top:1rem;
 border-width: 2px;
   margin-left: 0rem;
   max-width: 25rem;
+}
+
+.photospec{
+  max-width: 20rem;
 }
 
 @media screen and (max-width: 55.9375rem) {
