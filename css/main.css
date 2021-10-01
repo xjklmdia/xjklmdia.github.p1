@@ -193,8 +193,9 @@ something about wrong quotations? */
   display:grid;
 }
 
-.imgspec{
-
+.inspiration{
+  width: 50%;
+  height:auto;
 }
 
 .imgspec:hover{
